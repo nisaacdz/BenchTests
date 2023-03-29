@@ -1,0 +1,11 @@
+[package]
+name = "benchtests"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+rand = "0.8.5"
+thread_runner = "0.1.0"
+thread_runner_l = { path = "d:/workspace/rust/thread_runner" }
